@@ -27,7 +27,7 @@ The output is 10x10 matrix which is saved in the output file.
 
 ##Command to Run
 
-spark-submit --master <MASTER> matrix_multiply.py <path_for_matrix_data> <path_for_output_result>
+spark-submit --master <MASTER> matrix_multiply.py path_for_matrix_data path_for_output_result
 
 
 ##Sparse Matrix Multiplication
@@ -51,3 +51,7 @@ where index is the position of a non-zero element, and value is the non-zero ele
 ###Output
 
 We will comput A_Transpose * A and output the result as a file. The result will be a 100x100 matrix.
+
+##Command to Run
+
+spark-submit --master <MASTER> matrix_multiply_sparse.py path_for_sparse_matrix_data path_for_output_result
