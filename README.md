@@ -50,7 +50,7 @@ where index is the position of a non-zero element, and value is the non-zero ele
 
 ###Output
 
-We will comput A_Transpose * A and output the result as a file. The result will be a 100x100 matrix.
+We will compute A_Transpose * A and output the result as a file. The result will be a 100x100 matrix.
 
 ##Command to Run
 
